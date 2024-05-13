@@ -12,7 +12,7 @@ Page 2 - Sign Up Page:
 
 Page 3 - Read More Page:
 - Header with the website title and the main navigation bar
-- Main content container with an H1 and a list elements
+- Main content container with an H1 and list elements
 - Footer with logo and some links
 
 Page 4 - Gallery Page:
@@ -31,40 +31,40 @@ Website HTML Elements and Style:
 Page 1 - Home Page:
 
 - Headers tag
-    Background color: #646EC1
+    - Background color: #646EC1
 
 - Image tag
 
 - Navigation tag
-    Font color: White
-    Font: Source Sans Pro
+    - Font color: White
+    - Font: Source Sans Pro
 
 - Unordered list tag
-    List style: None
+    - List style: None
 
 - List item tags
 
 - Anchor tags
-    Text decoration: None
-    Font Color: White
+    - Text decoration: None
+    - Font Color: White
 
 - Division tag
-    Background color: #F4F4EB
+    - Background color: #F4F4EB
 
 - Main tag
 
 - Aside tag
 
 - H1 tag
-    Font: Source Sans Pro
+    - Font: Source Sans Pro
 
 - Image tag
 
 - H2 tags
-    Font: Source Sans Pro
+    - Font: Source Sans Pro
 
 - Paragraph tags
-    Font: Roboto
+    - Font: Roboto
 
 - Address tag
 
@@ -73,7 +73,7 @@ Page 1 - Home Page:
 - Aside tag
 
 - Unordered list tag
-    List style: None
+    - List style: None
 
 - List item tags
 
@@ -86,17 +86,17 @@ Page 1 - Home Page:
 - Image tag
 
 - Paragraph tag
-    Font: Roboto
+    - Font: Roboto
 
 - Small tag
 
 - Paragraph tag
-    Font: Roboto
+    - Font: Roboto
 
 - Small tag
 
 - Unordered list tag
-    List style: None
+    - List style: None
 
 - List item tag
 
@@ -109,10 +109,10 @@ Page 2 - Sign Up Page:
 - Same elements as header and footer
 
 - Division tag
-    Background color: #F4F4EB
+    - Background color: #F4F4EB
 
 - H1 tag
-    Font: Source Sans Pro
+    - Font: Source Sans Pro
 
 - Form tag
 
@@ -121,7 +121,7 @@ Page 2 - Sign Up Page:
 - Legend tags
 
 - Label tags
-    Font: Roboto
+    - Font: Roboto
 
 - Input tags
 
@@ -136,29 +136,29 @@ Page 3 - Read More Page:
 - Same elements as header and footer
 
 - Division tag
-    Background color: #F4F4EB
+    - Background color: #F4F4EB
 
 - H1 tag
-    Font: Source Sans Pro
+    - Font: Source Sans Pro
 
 - Ordered list tag
-    List style: Roman
+    - List style: Roman
 
 - List item tags
 
 - Anchor tags
-    Text decoration: None
-    Font color: black
+    - Text decoration: None
+    - Font color: black
 
 Page 4 - Gallery Page:
 
 - Same elements as header and footer
 
 - Division tag
-    Background color: #F4F4EB
+    - Background color: #F4F4EB
 
 - H1 tag
-    Font: Source Sans Pro
+    - Font: Source Sans Pro
 
 - Division tag
 
@@ -169,15 +169,15 @@ Page 5 - Videos Page:
 - Same elements as header and footer
 
 - Division tag
-    Background color: #F4F4EB
+    - Background color: #F4F4EB
 
 - H1 tag
-    Font: Source Sans Pro
+    - Font: Source Sans Pro
 
 - Division tag
 
 - H2 tags
-    Font: Source Sans Pro
+    - Font: Source Sans Pro
 
 - Video tags
 
