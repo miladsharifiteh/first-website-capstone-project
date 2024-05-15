@@ -10,6 +10,116 @@
 
     <body>
 
+        <header>
+            <img src="../assets/logo-header.png" alt="Website logo as a written text 'As Simple as Computers!'">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/sign-up.html">Sign Up</a></li>
+                    <li><a href="pages/read-more.html">Read More</a></li>
+                    <li><a href="pages/gallery.html">Gallery</a></li>
+                    <li><a href="pages/videos.html">Videos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div>
+            <h1>Sign Up</h1>
+
+            <form action="/url" method="post">
+                <fieldset>
+                    <legend>User Information</legend>
+
+                    <div>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="first_name">
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="last_name">
+                    </div>
+
+                    <div>
+                        <label for="birthDate">Date of Birth:</label>
+                        <input type="date" id="birthDate" name="birth_date">
+                    </div>
+
+                    <div>
+                        <label for="emailAddress">Email Address:</label>
+                        <input type="email" id="emailAddress" name="email_address">
+                    </div>
+
+                    <div>
+                        <label for="education">Education:</label>
+                        <select id="education" name="education">
+                            <option value="primary">Primary Education</option>
+                            <option value="lowerSecondary">Lower Secondary Education</option>
+                            <option value="upperSecondary">Upper Secondary Education</option>
+                            <option value="postSecondary">Post-secondary Non-tertiary Education</option>
+                            <option value="shortCycle">Short-cycle Tertiary Education</option>
+                            <option value="bachelor">Bachelor's or Equivalent Level</option>
+                            <option value="master">Master's or Equivalent Level</option>
+                            <option value="doctoral">Doctoral or Equivalent Level</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="studyField">Field of Study:</label>
+                        <input type="text" id="studyField" name="study_field">
+                    </div>
+
+                    <div>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username">
+                    </div>
+
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>User Interests</legend>
+
+                    <div>
+                        <label for="computerLike">What do you most like about computers?</label>
+                        <textarea id="computerLike" name="computer_like"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="favorites">What are your favorite things to do?</label>
+                        <textarea id="favorites" name="favorites"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="newsletter">Sign up for newsletter</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <footer>
+            <img src="../assets/logo-footer.png" alt="A picture shows the website logo in condensed form">
+
+            <p><small>Copyright © 2024 Milad Sharifi Tehrani</small></p>
+
+            <p>
+                <small>Contact me:</small>
+                <ul>
+                    <li><a href="https://www.instagram.com/miladsharifiteh/"><img src="../assets/instagram.svg" alt="Icon picture shows Instagram logo"></a></li>
+                    <li><a href="https://twitter.com/miladsharifiteh"><img src="../assets/twitter.svg" alt="Icon picture shows Twitter logo"></a></li>
+                    <li><a href="https://www.linkedin.com/in/miladsharifiteh/"><img src="../assets/linkedin.svg" alt="Icon picture shows Linkedin logo"></a></li>
+                </ul>
+            </p>
+        </footer>
+
     </body>
 
 </html>
