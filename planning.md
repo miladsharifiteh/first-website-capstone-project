@@ -181,6 +181,4 @@ Page 5 - Videos Page:
 - H2 tags
     - Font: Source Sans Pro
 
-- Video tags
-
-- Source tags
+- Frame tags
