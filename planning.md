@@ -162,6 +162,8 @@ Page 4 - Gallery Page:
 
 - Division tag
 
+- Anchor tags
+
 - Image tags
 
 Page 5 - Videos Page:
