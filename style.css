@@ -1,0 +1,143 @@
+/* Common Rules */
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.center {
+    justify-content: center;
+}
+
+.middle {
+    align-items: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border-solid {
+    border: 2px solid black;
+}
+
+.border-round {
+    border-radius: 10px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.white {
+    color: white;
+}
+
+body {
+    background-color: #F4F4EB;
+}
+
+.header {
+    background-color: #646EC1;
+    padding: 10px 60px 10px 10px;
+}
+
+.header-logo {
+    height: 70px;
+}
+
+.nav {
+    width: 800px;
+}
+
+.nav-link {
+    color: white;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 10px 0px;
+}
+
+h1, h2, h3 {
+    font-family: "Source Sans Pro";
+}
+
+p, address, a, small {
+    font-family: "Roboto";
+}
+
+.footer {
+    background-color: #646EC1;
+    padding: 10px 60px 10px 10px;
+}
+
+.footer-logo {
+    height: 70px;
+}
+
+.footer-copyright {
+    color: white;
+}
+
+.contact {
+    width: 190px;
+}
+
+.social-icon {
+    width: 30px;
+    margin-left: 5px;
+}
+
+/* Home Page Rules */
+
+.main {
+    width: 70%;
+    padding: 20px 20px;
+}
+
+.binary-bulbs {
+    width: 500px;
+    display: block;
+    margin: 50px auto;
+    padding: 1px;
+}
+
+.aside {
+    width: 20%;
+    padding: 10px 20px;
+}
+
+.aside-icon {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+}
