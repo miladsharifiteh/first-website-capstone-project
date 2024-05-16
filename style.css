@@ -7,6 +7,10 @@
     display: flex;
 }
 
+.block {
+    display: block;
+}
+
 .column {
     flex-direction: column;
 }
@@ -17,10 +21,6 @@
 
 .space-around {
     justify-content: space-around;
-}
-
-.center {
-    justify-content: center;
 }
 
 .middle {
@@ -63,12 +63,12 @@ body {
     background-color: #F4F4EB;
 }
 
-.header {
+.bar {
     background-color: #646EC1;
     padding: 10px 60px 10px 10px;
 }
 
-.header-logo {
+.logo {
     height: 70px;
 }
 
@@ -77,35 +77,22 @@ body {
 }
 
 .nav-link {
-    color: white;
-    font-family: "Source Sans Pro";
     font-size: 18px;
     font-weight: bold;
 }
 
-.container {
-    padding: 10px 0px;
-}
-
-h1, h2, h3 {
+h1, h2, h3, .nav-link {
     font-family: "Source Sans Pro";
 }
 
-p, address, a, small {
+p, address, a, small, legend, label {
     font-family: "Roboto";
 }
 
 .footer {
-    background-color: #646EC1;
-    padding: 10px 60px 10px 10px;
-}
-
-.footer-logo {
-    height: 70px;
-}
-
-.footer-copyright {
-    color: white;
+    position: absolute;
+    bottom: 8px;
+    width: 95.5%;
 }
 
 .contact {
@@ -119,6 +106,10 @@ p, address, a, small {
 
 /* Home Page Rules */
 
+.container-home {
+    padding: 10px 0px;
+}
+
 .main {
     width: 70%;
     padding: 20px 20px;
@@ -126,7 +117,6 @@ p, address, a, small {
 
 .binary-bulbs {
     width: 500px;
-    display: block;
     margin: 50px auto;
     padding: 1px;
 }
@@ -137,7 +127,22 @@ p, address, a, small {
 }
 
 .aside-icon {
-    display: block;
     margin: 20px auto;
     width: 100px;
+}
+
+/* Sign Up Page Rules */
+
+.fieldset {
+    margin-top: 20px;
+}
+
+.legend {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 7px;
+}
+
+.form-input {
+    margin: 10px;
 }

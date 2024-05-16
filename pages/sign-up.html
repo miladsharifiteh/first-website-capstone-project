@@ -4,53 +4,55 @@
 
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../style.css">
         <title>As Simple as Computers! - Sign Up</title>
     </head>
 
     <body>
 
-        <header>
-            <img src="../assets/logo-header.png" alt="Website logo as a written text 'As Simple as Computers!'">
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="sign-up.html">Sign Up</a></li>
-                    <li><a href="read-more.html">Read More</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="videos.html">Videos</a></li>
+        <header class="bar flex space-between middle border-round">
+            <img class="logo" src="../assets/logo-header.png" alt="Website logo as a written text 'As Simple as Computers!'">
+            <nav class="nav">
+                <ul class="list-style-none flex space-between">
+                    <li><a class="nav-link text-decoration-none white" href="../index.html">Home</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="sign-up.html">Sign Up</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="read-more.html">Read More</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="videos.html">Videos</a></li>
                 </ul>
             </nav>
         </header>
 
-        <div>
+        <div class="flex column middle">
             <h1>Sign Up</h1>
 
             <form action="/url" method="post">
-                <fieldset>
-                    <legend>User Information</legend>
+                <fieldset class="fieldset">
+                    <legend class="legend">User Information</legend>
 
-                    <div>
+                    <div class="form-input inline">
                         <label for="firstName">First Name:</label>
                         <input type="text" id="firstName" name="first_name">
                     </div>
 
-                    <div>
+                    <div class="form-input inline">
                         <label for="lastName">Last Name:</label>
                         <input type="text" id="lastName" name="last_name">
                     </div>
 
-                    <div>
+                    <div class="form-input inline">
                         <label for="birthDate">Date of Birth:</label>
                         <input type="date" id="birthDate" name="birth_date">
                     </div>
 
-                    <div>
+                    <br>
+
+                    <div class="form-input inline">
                         <label for="emailAddress">Email Address:</label>
                         <input type="email" id="emailAddress" name="email_address">
                     </div>
 
-                    <div>
+                    <div class="form-input inline">
                         <label for="education">Education:</label>
                         <select id="education" name="education">
                             <option value="primary">Primary Education</option>
@@ -64,60 +66,65 @@
                         </select>
                     </div>
 
-                    <div>
+                    <div class="form-input inline">
                         <label for="studyField">Field of Study:</label>
                         <input type="text" id="studyField" name="study_field">
                     </div>
 
-                    <div>
+                    <br>
+
+                    <div class="form-input inline">
                         <label for="username">Username:</label>
                         <input type="text" id="username" name="username">
                     </div>
 
-                    <div>
+                    <div class="form-input inline">
                         <label for="password">Password:</label>
                         <input type="password" id="password" name="password">
                     </div>
                 </fieldset>
 
-                <fieldset>
-                    <legend>User Interests</legend>
+                <fieldset class="fieldset">
+                    <legend class="legend">User Interests</legend>
 
-                    <div>
+                    <div class="form-input inline">
                         <label for="computerLike">What do you most like about computers?</label>
-                        <textarea id="computerLike" name="computer_like"></textarea>
+                        <textarea class="block" id="computerLike" name="computer_like" rows="4" cols="45"></textarea>
                     </div>
 
-                    <div>
+                    <div class="form-input inline">
                         <label for="favorites">What are your favorite things to do?</label>
-                        <textarea id="favorites" name="favorites"></textarea>
+                        <textarea class="block" id="favorites" name="favorites" rows="4" cols="45"></textarea>
                     </div>
 
-                    <div>
+                    <div class="form-input text-center">
                         <label for="newsletter">Sign up for newsletter</label>
                         <input type="checkbox" id="newsletter" name="newsletter">
                     </div>
 
-                    <div>
+                    <div class="form-input text-center">
                         <button type="submit">Submit</button>
                     </div>
                 </fieldset>
             </form>
         </div>
 
-        <footer>
-            <img src="../assets/logo-footer.png" alt="A picture shows the website logo in condensed form">
+        <footer class="footer bar flex space-between middle border-round">
+            <img class="logo" src="../assets/logo-footer.png" alt="A picture shows the website logo in condensed form">
 
-            <p><small>Copyright © 2024 Milad Sharifi Tehrani</small></p>
+            <p class="white"><small>Copyright © 2024 Milad Sharifi Tehrani</small></p>
 
-            <p>
-                <small>Contact me:</small>
-                <ul>
-                    <li><a href="https://www.instagram.com/miladsharifiteh/"><img src="../assets/instagram.svg" alt="Icon picture shows Instagram logo"></a></li>
-                    <li><a href="https://twitter.com/miladsharifiteh"><img src="../assets/twitter.svg" alt="Icon picture shows Twitter logo"></a></li>
-                    <li><a href="https://www.linkedin.com/in/miladsharifiteh/"><img src="../assets/linkedin.svg" alt="Icon picture shows Linkedin logo"></a></li>
+            <div class="contact flex middle space-between">
+                <small class="white">Contact me:</small>
+                <ul class="list-style-none no-padding">
+                    <li class="inline"><a href="https://www.instagram.com/miladsharifiteh/" target="_blank"><img class="social-icon block" src="../assets/instagram.svg"
+                        alt="Icon picture shows Instagram logo"></a></li>
+                    <li class="inline"><a href="https://twitter.com/miladsharifiteh" target="_blank"><img class="social-icon block" src="../assets/twitter.svg"
+                        alt="Icon picture shows Twitter logo"></a></li>
+                    <li class="inline"><a href="https://www.linkedin.com/in/miladsharifiteh/" target="_blank"><img class="social-icon block" src="../assets/linkedin.svg"
+                        alt="Icon picture shows Linkedin logo"></a></li>
                 </ul>
-            </p>
+            </div>
         </footer>
 
     </body>
