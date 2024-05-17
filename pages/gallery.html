@@ -4,55 +4,60 @@
 
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../style.css">
         <title>As Simple as Computers! - Gallery</title>
     </head>
 
     <body>
 
-        <header>
-            <img src="../assets/logo-header.png" alt="Website logo as a written text 'As Simple as Computers!'">
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="sign-up.html">Sign Up</a></li>
-                    <li><a href="read-more.html">Read More</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="videos.html">Videos</a></li>
+        <header class="bar flex space-between middle border-round">
+            <img class="logo" src="../assets/logo-header.png" alt="Website logo as a written text 'As Simple as Computers!'">
+            <nav class="nav">
+                <ul class="list-style-none flex space-between">
+                    <li><a class="nav-link text-decoration-none white" href="../index.html">Home</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="sign-up.html">Sign Up</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="read-more.html">Read More</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="videos.html">Videos</a></li>
                 </ul>
             </nav>
         </header>
 
-        <div>
+        <div class="flex column middle">
             <h1>Computers Gallery</h1>
 
-            <div>
-                <a href="https://www.elephantlearning.com/post/charles-babbage-inventor-of-first-mechanical-computer"><img src="../assets/mechanical-computer.jpeg"
-                    alt="A picture of a mechanical computer"></a>
-                <a href="https://www.britannica.com/technology/personal-computer"><img src="../assets/computer-history.webp" alt="A picture of an Apple Lisa computer"></a>
-                <a href="https://forum.arduino.cc/t/a-4-4ics-z80-atmega32a-homemade-computer-on-breadboard/425654"><img src="../assets/homemade-computer.jpeg"
-                    alt="A picture of a handmade computer on a breadboard"></a>
-                <a href="https://www.proprofs.com/quiz-school/story.php?title=basic-hardware-quiz_12t3"><img src="../assets/computer-hardware.jpg"
-                    alt="A picture of different computer hardware components"></a>
-                <a href="https://www.techspot.com/article/2000-anatomy-cpu/"><img src="../assets/cpu-anatomy.webp" alt="A picture shows the front and back of a CPU"></a>
-                <a href="https://www.icdrex.com/the-brain-behind-the-machine-transistors-in-cpu-architecture/"><img src="../assets/cpu-transistors.jpg"
-                    alt="A picture shows a CPU transistors"></a>
+            <div class="gallery">
+                <a href="https://www.elephantlearning.com/post/charles-babbage-inventor-of-first-mechanical-computer" target="_blank"><img class="gallery-item border-solid"
+                    src="../assets/mechanical-computer.jpeg" alt="A picture of a mechanical computer"></a>
+                <a href="https://www.britannica.com/technology/personal-computer" target="_blank"><img class="gallery-item border-solid"
+                    src="../assets/computer-history.webp" alt="A picture of an Apple Lisa computer"></a>
+                <a href="https://forum.arduino.cc/t/a-4-4ics-z80-atmega32a-homemade-computer-on-breadboard/425654" target="_blank"><img class="gallery-item border-solid"
+                    src="../assets/homemade-computer.jpeg" alt="A picture of a handmade computer on a breadboard"></a>
+                <a href="https://www.proprofs.com/quiz-school/story.php?title=basic-hardware-quiz_12t3" target="_blank"><img class="gallery-item border-solid"
+                    src="../assets/computer-hardware.jpg" alt="A picture of different computer hardware components"></a>
+                <a href="https://www.techspot.com/article/2000-anatomy-cpu/" target="_blank"><img class="gallery-item border-solid"
+                    src="../assets/cpu-anatomy.webp" alt="A picture shows the front and back of a CPU"></a>
+                <a href="https://www.icdrex.com/the-brain-behind-the-machine-transistors-in-cpu-architecture/" target="_blank"><img class="gallery-item border-solid"
+                    src="../assets/cpu-transistors.jpg" alt="A picture shows a CPU transistors"></a>
             </div>
         </div>
 
-        <footer>
-            <img src="../assets/logo-footer.png" alt="A picture shows the website logo in condensed form">
+        <footer class="footer bar flex space-between middle border-round">
+            <img class="logo" src="../assets/logo-footer.png" alt="A picture shows the website logo in condensed form">
 
-            <p><small>Copyright © 2024 Milad Sharifi Tehrani</small></p>
+            <p class="white"><small>Copyright © 2024 Milad Sharifi Tehrani</small></p>
 
-            <p>
-                <small>Contact me:</small>
-                <ul>
-                    <li><a href="https://www.instagram.com/miladsharifiteh/"><img src="../assets/instagram.svg" alt="Icon picture shows Instagram logo"></a></li>
-                    <li><a href="https://twitter.com/miladsharifiteh"><img src="../assets/twitter.svg" alt="Icon picture shows Twitter logo"></a></li>
-                    <li><a href="https://www.linkedin.com/in/miladsharifiteh/"><img src="../assets/linkedin.svg" alt="Icon picture shows Linkedin logo"></a></li>
+            <div class="contact flex middle space-between">
+                <small class="white">Contact me:</small>
+                <ul class="list-style-none no-padding">
+                    <li class="inline"><a href="https://www.instagram.com/miladsharifiteh/" target="_blank"><img class="social-icon block"
+                        src="../assets/instagram.svg" alt="Icon picture shows Instagram logo"></a></li>
+                    <li class="inline"><a href="https://twitter.com/miladsharifiteh" target="_blank"><img class="social-icon block"
+                        src="../assets/twitter.svg" alt="Icon picture shows Twitter logo"></a></li>
+                    <li class="inline"><a href="https://www.linkedin.com/in/miladsharifiteh/" target="_blank"><img class="social-icon block"
+                        src="../assets/linkedin.svg" alt="Icon picture shows Linkedin logo"></a></li>
                 </ul>
-            </p>
+            </div>
         </footer>
 
     </body>

@@ -66,6 +66,7 @@ body {
 .bar {
     background-color: #646EC1;
     padding: 10px 60px 10px 10px;
+    margin-top: 20px;
 }
 
 .logo {
@@ -145,4 +146,23 @@ p, address, a, small, legend, label {
 
 .form-input {
     margin: 10px;
+}
+
+/* Read More Page Rules */
+
+.read-more-list {
+    list-style-type: upper-roman;
+}
+
+/* Gallery Page Rules */
+
+.gallery {
+    display: grid;
+    grid-template: 50% 50% / 33% 33% 33%;
+}
+
+.gallery-item {
+    width: 300px;
+    height: 200px;
+    padding: 2px;
 }

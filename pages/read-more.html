@@ -4,50 +4,57 @@
 
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../style.css">
         <title>As Simple as Computers! - Read More</title>
     </head>
 
     <body>
 
-        <header>
-            <img src="../assets/logo-header.png" alt="Website logo as a written text 'As Simple as Computers!'">
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="sign-up.html">Sign Up</a></li>
-                    <li><a href="read-more.html">Read More</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="videos.html">Videos</a></li>
+        <header class="bar flex space-between middle border-round">
+            <img class="logo" src="../assets/logo-header.png" alt="Website logo as a written text 'As Simple as Computers!'">
+            <nav class="nav">
+                <ul class="list-style-none flex space-between">
+                    <li><a class="nav-link text-decoration-none white" href="../index.html">Home</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="sign-up.html">Sign Up</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="read-more.html">Read More</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link text-decoration-none white" href="videos.html">Videos</a></li>
                 </ul>
             </nav>
         </header>
 
-        <div>
+        <div class="flex column middle">
             <h1>External Sources to Read More About Computers</h1>
 
-            <ol>
-                <li><a href="https://www.freecodecamp.org/news/the-quick-guide-to-the-way-computers-work-for-desperate-new-coders-fcdb34cbe8a9/">The Way Computers Work for Desperate New Coders</a></li>
-                <li><a href="https://iopn.library.illinois.edu/pressbooks/demystifyingtechnology/chapter/computer-building-blocks/">Computer Building Blocks</a></li>
-                <li><a href="https://www.redhat.com/sysadmin/cpu-components-functionality">The Central Processing Unit (CPU): Its Components and Functionality</a></li>
-                <li><a href="https://dataconomy.com/2023/03/31/what-is-abstraction-in-computer-science/">The Art of Abstraction in Computer Science</a></li>
-                <li><a href="https://eater.net/8bit/">Build an 8-bit Computer From Scratch</a></li>
+            <ol class="read-more-list">
+                <li><a href="https://www.freecodecamp.org/news/the-quick-guide-to-the-way-computers-work-for-desperate-new-coders-fcdb34cbe8a9/"
+                    target="_blank">The Way Computers Work for Desperate New Coders</a></li>
+                <li><a href="https://iopn.library.illinois.edu/pressbooks/demystifyingtechnology/chapter/computer-building-blocks/"
+                    target="_blank">Computer Building Blocks</a></li>
+                <li><a href="https://www.redhat.com/sysadmin/cpu-components-functionality"
+                    target="_blank">The Central Processing Unit (CPU): Its Components and Functionality</a></li>
+                <li><a href="https://dataconomy.com/2023/03/31/what-is-abstraction-in-computer-science/"
+                    target="_blank">The Art of Abstraction in Computer Science</a></li>
+                <li><a href="https://eater.net/8bit/" target="_blank">Build an 8-bit Computer From Scratch</a></li>
             </ol>
         </div>
 
-        <footer>
-            <img src="../assets/logo-footer.png" alt="A picture shows the website logo in condensed form">
+        <footer class="footer bar flex space-between middle border-round">
+            <img class="logo" src="../assets/logo-footer.png" alt="A picture shows the website logo in condensed form">
 
-            <p><small>Copyright © 2024 Milad Sharifi Tehrani</small></p>
+            <p class="white"><small>Copyright © 2024 Milad Sharifi Tehrani</small></p>
 
-            <p>
-                <small>Contact me:</small>
-                <ul>
-                    <li><a href="https://www.instagram.com/miladsharifiteh/"><img src="../assets/instagram.svg" alt="Icon picture shows Instagram logo"></a></li>
-                    <li><a href="https://twitter.com/miladsharifiteh"><img src="../assets/twitter.svg" alt="Icon picture shows Twitter logo"></a></li>
-                    <li><a href="https://www.linkedin.com/in/miladsharifiteh/"><img src="../assets/linkedin.svg" alt="Icon picture shows Linkedin logo"></a></li>
+            <div class="contact flex middle space-between">
+                <small class="white">Contact me:</small>
+                <ul class="list-style-none no-padding">
+                    <li class="inline"><a href="https://www.instagram.com/miladsharifiteh/" target="_blank"><img class="social-icon block"
+                        src="../assets/instagram.svg" alt="Icon picture shows Instagram logo"></a></li>
+                    <li class="inline"><a href="https://twitter.com/miladsharifiteh" target="_blank"><img class="social-icon block"
+                        src="../assets/twitter.svg" alt="Icon picture shows Twitter logo"></a></li>
+                    <li class="inline"><a href="https://www.linkedin.com/in/miladsharifiteh/" target="_blank"><img class="social-icon block"
+                        src="../assets/linkedin.svg" alt="Icon picture shows Linkedin logo"></a></li>
                 </ul>
-            </p>
+            </div>
         </footer>
 
     </body>
